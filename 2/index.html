@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container my-4">
+    <section id="showHidebtn">
+        <button class="btn btn-primary">show form</button>
+    </section>
+    <section class="border border-success border-3 my-3 rounded d-none" id="myForm">
+        <form class="p-3">
+            <div class="mb-3">
+                <input class="form-control" name="taskTitle" placeholder="task title">
+            </div>
+            <div class="mb-3">
+                <input class="form-control" name="taskType" placeholder="task type">
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" name="taskContent" placeholder="task content"></textarea>
+            </div>
+            <div class="mb-3" id="add-edit-btn">
+                <button type="submit" class="btn btn-success">Add Task</button>
+            </div>
+        </form>
+    </section>
+    <section id="content-wrapper">
+        <div class="row"></div>
+    </section>
+    <script src="js/custom.js"></script>
+</body>
+</html>
